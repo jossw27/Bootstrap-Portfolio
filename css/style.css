@@ -1,0 +1,60 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Adding a logo */
+.logo{
+ height: 100px;
+ width: 100px;
+ border-radius: 100px;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #C8D5B9, #8FC0A9, #68B0AB);
+    padding: 0 !important;
+    font-size: 25px;
+    font-style: bold;
+    font-family: sans-serif;   
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar a:hover {
+    background-color: #f72585;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* Banner */
+
+#banner {
+    background: linear-gradient(to right, #fefae0, #faedcd, #e9edc9);
+    color: black;
+    padding-top: 5%;
+}
+
+.project-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
